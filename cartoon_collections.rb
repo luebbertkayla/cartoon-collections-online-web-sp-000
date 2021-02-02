@@ -4,6 +4,7 @@ def roll_call_dwarves(array)
     new_array = []
     array.each do |dwarf_name|
       new_array << ("#{number}. #{dwarf_name}")
+      puts 
       number += 1 
   end
   
