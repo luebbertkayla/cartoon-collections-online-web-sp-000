@@ -12,7 +12,6 @@ end
 
 def summon_captain_planet(array)
   first_letter_cap = array.collect {|planeteer_call| planeteer_call.array[i].character(0).upcase}
-  
 end
 
 def long_planeteer_calls# code an argument here
