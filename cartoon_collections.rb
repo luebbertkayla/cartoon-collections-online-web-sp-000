@@ -25,8 +25,8 @@ def long_planeteer_calls(calls)
   return false
 end
 
-def find_the_cheese(array)
+def find_the_cheese(cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese.find do |cheese|
-    cheese_types.include? 
+    cheese_types.include?(cheese)
 end
