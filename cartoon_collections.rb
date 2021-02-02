@@ -6,7 +6,7 @@ def roll_call_dwarves(array)
       new_array << ("#{number}. #{dwarf_name}")
       number += 1 
   end
-  puts new_array.split
+  puts new_array
   end
 end
 
