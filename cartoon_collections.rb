@@ -1,6 +1,12 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
-end
+def roll_call_dwarves(array)
+  if array.length >= 1 
+    number = 1 
+    new_array = []
+    array.each do |dwarf_name|
+      new_array << ("#{number}. #{dwarf_name}")
+      number += 1 
+  end
+  
 
 def summon_captain_planet# code an argument here
   # Your code here
