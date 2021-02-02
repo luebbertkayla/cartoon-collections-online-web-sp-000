@@ -7,6 +7,7 @@ def roll_call_dwarves(array)
       number += 1 
   end
   puts new_array.split
+  end
 end
 
 def summon_captain_planet# code an argument here
