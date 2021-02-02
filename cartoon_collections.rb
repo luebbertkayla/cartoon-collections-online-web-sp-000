@@ -11,7 +11,7 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(array)
-  array.collect {|planeteer_call| planeteer_call.
+  first_letter_cap = array.collect {|planeteer_call| planeteer_call.
   first_letter = array[i].character(0)
   first_letter_cap = array[i].character(0).upcase
 end
